@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(pomodoro.jpg) no-repeat center/cover fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock {
+  font-size: 10rem;
+  color: #d3d3d3;
+  text-shadow: 2px 2px #000;
+}
+
+.container {
+  padding: 0 auto;
+}
+
+div#pomodoroCount {
+  font-size: 3.5rem;
+  width: 100%;
+  margin: 25px 0;
+  text-decoration: underline;
+  color: #d3d3d3;
+  text-shadow: 2px 2px #000;
+}
+
+.btn {
+  font-size: 2rem;
+  width: 100%;
+  margin: 25px 0;
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 40px;
+  color: #d3d3d3;
+  text-shadow: 2px 2px #000;
+  border: 2px solid #d3d3d3;
+  display: block;
+  outline: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px #000;
+}
+
+.btn:hover {
+  color: #000;
+  text-shadow: 2px 2px #d3d3d3;
+  border: 2px solid #000;
+  box-shadow: none;
+  background-color: #d3d3d3;
+}
